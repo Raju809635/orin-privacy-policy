@@ -9,7 +9,18 @@ Standalone static site for Play Store Privacy Policy URL.
 4. Deploy (no build settings needed).
 
 ## URL to use in Play Console
-`https://<your-privacy-domain>/privacy-policy`
+`https://orin-privacy-policy.vercel.app/privacy-policy`
+
+## Account deletion URL for Play Console
+`https://orin-privacy-policy.vercel.app/delete-account`
+
+Important:
+- The URL must be public (no login).
+- It must not show 404.
+- Verify both:
+  - `https://orin-privacy-policy.vercel.app/`
+  - `https://orin-privacy-policy.vercel.app/privacy-policy`
+  - `https://orin-privacy-policy.vercel.app/delete-account`
 
 ## Local preview
 Open `privacy-policy.html` directly in browser or use any static server.
