@@ -12,15 +12,16 @@
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       }
       .wrap {
-        max-width: 920px;
+        max-width: 960px;
         margin: 24px auto;
-        background: #fff;
+        background: #ffffff;
         border: 1px solid #e4e7ec;
         border-radius: 16px;
         padding: 24px;
-        line-height: 1.6;
+        line-height: 1.65;
       }
-      h1, h2 {
+      h1,
+      h2 {
         color: #0f3d2f;
       }
       h1 {
@@ -29,77 +30,131 @@
       p {
         margin: 8px 0;
       }
+      .meta {
+        color: #667085;
+      }
     </style>
   </head>
   <body>
     <main class="wrap">
       <h1>ORIN Privacy Policy</h1>
-      <p>Effective date: <strong>March 3, 2026</strong></p>
+      <p class="meta">Effective date: <strong>April 14, 2026</strong></p>
       <p>
-        ORIN ("we", "our", "us") is a mentorship platform that connects students and mentors. This Privacy Policy
-        explains what we collect, how we use it, and your choices.
+        ORIN is a mentorship, learning, networking, AI guidance, and community platform for students, graduates,
+        job seekers, mentors, and administrators. This Privacy Policy explains what information ORIN collects, how
+        it is used, when it may be shared with service providers, how it is protected, and what choices are available
+        to users.
       </p>
 
       <h2>1. Information We Collect</h2>
-      <p>- Account data: name, email, phone number, role.</p>
-      <p>- Profile data: category, specialization, bio, pricing, availability.</p>
-      <p>- Session data: booking details, schedule, status, notes.</p>
-      <p>- Payment data: payment status, transaction reference, payment screenshot (manual mode).</p>
-      <p>- Communication data: chat messages and support interactions.</p>
-      <p>- Technical data: device/app logs required for security and troubleshooting.</p>
+      <p>- Account and identity information such as name, email address, password, role, education details, institution, state, profile type, and profile photo.</p>
+      <p>- Profile and community information such as bio, skills, interests, posts, comments, reactions, saved items, follows, connections, mentor groups, certificates, and community submissions.</p>
+      <p>- Mentorship and program information such as 1:1 session bookings, mentor availability, live-session bookings, sprint enrollments, ratings, reviews, notes, program metadata, and session-related workflow records.</p>
+      <p>- Payment and payout information such as Razorpay order/payment references, transaction references, manual payment screenshots, payout UPI details, payout QR images, and payout status records.</p>
+      <p>- Uploaded files and media such as profile photos, challenge proof files, posters, curriculum documents, screenshots, resumes, certificates, and support attachments.</p>
+      <p>- AI and learning inputs such as prompts, roadmap preferences, skill-gap inputs, project-idea requests, resume-builder inputs, and saved AI outputs.</p>
+      <p>- Technical and usage information such as app version, timestamps, device/browser details, diagnostics, logs, and security-related usage signals needed to operate and protect the service.</p>
 
       <h2>2. How We Use Information</h2>
-      <p>- Create and manage accounts.</p>
-      <p>- Enable booking, payments, session management, and notifications.</p>
-      <p>- Verify mentor/student activity and prevent fraud/abuse.</p>
-      <p>- Improve platform reliability and user experience.</p>
-      <p>- Comply with legal and operational obligations.</p>
+      <p>- To create and manage accounts, authenticate users, and provide role-based access for students, mentors, and administrators.</p>
+      <p>- To operate ORIN features including mentorship sessions, live sessions, sprint programs, certificates, community spaces, chat, complaints, notifications, knowledge library, and opportunities.</p>
+      <p>- To process and verify payments, maintain payout records, review manual payment submissions, and support financial reconciliation and audits.</p>
+      <p>- To generate AI responses, recommendations, skill-gap insights, roadmaps, project ideas, resume outputs, and other learning support.</p>
+      <p>- To moderate content, investigate complaints, prevent abuse, enforce policies, and maintain safety, reliability, and platform integrity.</p>
+      <p>- To improve personalization, support, fraud prevention, product performance, and feature quality.</p>
 
-      <h2>3. Data Sharing</h2>
+      <h2>3. Payments and Financial Processing</h2>
       <p>
-        We do not sell personal data. Data may be shared only with trusted infrastructure providers used to operate
-        ORIN (hosting, database, email delivery, and app distribution services), and only as needed.
+        ORIN may use Razorpay and related payment infrastructure to process eligible payments. Manual payment review
+        may also be supported in some flows. ORIN may store payment references, order identifiers, screenshots,
+        verification results, payout records, and related financial audit data where reasonably required.
       </p>
 
-      <h2>4. Data Retention</h2>
+      <h2>4. Media, Files, and Uploads</h2>
       <p>
-        We retain data as long as needed for account operations, legal compliance, dispute handling, and security.
-        When data is no longer required, we remove or anonymize it where reasonably possible.
+        Users may upload images and documents such as profile photos, posters, curriculum documents, resumes,
+        payment proofs, challenge evidence, certificates, and screenshots. These uploads are used only to support
+        the related ORIN features, moderation, verification, and user-requested workflows.
       </p>
 
-      <h2>5. Permissions and Device Access</h2>
-      <p>- Photos/Media: used when users upload profile or payment screenshots.</p>
-      <p>- Camera (if enabled): used only when user chooses camera-based upload.</p>
-      <p>We do not access these resources without user action and permission.</p>
-
-      <h2>6. Security</h2>
+      <h2>5. Meeting Links and Jitsi</h2>
       <p>
-        We use reasonable technical and organizational safeguards to protect personal data, including authenticated
-        access controls and encrypted transport where applicable.
+        ORIN supports mentor-managed meeting links for eligible 1:1 sessions, live sessions, and sprint programs.
+        Mentors may add manual meeting links or generate Jitsi meeting links. When a Jitsi link is generated, ORIN
+        stores it inside the existing meeting-link workflow so a manual fallback can still be used if needed.
+      </p>
+      <p>
+        The current Jitsi implementation uses standard public Jitsi meeting URLs and does not require a separate
+        Jitsi API key for basic meeting-link generation.
       </p>
 
-      <h2>7. Your Rights</h2>
-      <p>You may request to access, correct, or delete your account data by contacting us.</p>
-      <p>Data deletion/contact requests: <strong>orin2k26@gmail.com</strong></p>
+      <h2>6. Service Providers and Third Parties</h2>
+      <p>
+        ORIN may use service providers that process limited data to deliver app functionality, including payment
+        providers such as Razorpay, storage/media providers such as Cloudinary and Firebase Storage, AI providers
+        such as OpenAI, Groq, or Gemini when configured, and Jitsi for generated meeting links.
+      </p>
+      <p>
+        These providers receive only the information reasonably necessary for the relevant function, such as processing
+        a payment, storing uploaded media, generating AI output, or opening a meeting room.
+      </p>
+      <p>
+        ORIN may also disclose information when required by law, to respond to valid legal requests, or to protect
+        users, administrators, mentors, students, or the platform.
+      </p>
 
-      <h2>8. Children's Privacy</h2>
+      <h2>7. Data Sharing Inside ORIN</h2>
+      <p>
+        Some information is visible to other users by design, such as public profile details, posts, comments,
+        certificates, mentor program listings, and community submissions. Mentors and students may also see each
+        other’s relevant session or program details when participating in the same ORIN activity.
+      </p>
+      <p>
+        Administrators may access records needed for moderation, approvals, support, complaint handling, payment
+        verification, fraud prevention, and operational review.
+      </p>
+
+      <h2>8. Data Retention</h2>
+      <p>
+        ORIN retains information for as long as needed to operate the service, complete transactions, maintain
+        records, resolve disputes, enforce policies, or comply with legal obligations. Retention periods may differ
+        by data type. Financial, moderation, complaint, certificate, and security records may be kept longer where
+        reasonably required.
+      </p>
+
+      <h2>9. Permissions and Device Access</h2>
+      <p>- Photos/media access may be used when users upload profile images, posters, documents, proofs, screenshots, or other selected media.</p>
+      <p>- Camera access may be used only if a user chooses camera-based capture for uploads.</p>
+      <p>- Network access is required for chat, content sync, AI features, payments, notifications, files, and API communication.</p>
+      <p>ORIN does not access these resources without user action and platform permission where applicable.</p>
+
+      <h2>10. Security</h2>
+      <p>
+        ORIN uses reasonable administrative, technical, and organizational safeguards to protect account data,
+        uploaded files, payment-related records, and platform operations. No method of storage or transmission is
+        completely secure, so absolute security cannot be guaranteed.
+      </p>
+
+      <h2>11. Your Rights and Choices</h2>
+      <p>- You can update parts of your account and profile information inside the app.</p>
+      <p>- You can control some privacy settings, such as profile visibility and whether certain information is shown in your profile.</p>
+      <p>- You can request account deletion or data-related support through the published account deletion flow or by contacting support.</p>
+
+      <h2>12. Children's Privacy</h2>
       <p>
         ORIN is not intended to knowingly collect personal information from children in violation of applicable laws.
+        If you believe data was submitted improperly, contact support for review.
       </p>
 
-      <h2>9. Third-Party Services</h2>
+      <h2>13. Changes to This Policy</h2>
       <p>
-        ORIN may use trusted third-party service providers (hosting, database, email, app infrastructure) only to
-        operate the platform. These providers process data under their own security and privacy controls.
+        ORIN may update this Privacy Policy from time to time. Updated versions will be posted at this URL with a
+        revised effective date.
       </p>
 
-      <h2>10. Changes to This Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. Updated versions will be posted at this URL with a revised effective date.
-      </p>
-
-      <h2>11. Contact</h2>
+      <h2>14. Contact</h2>
       <p>Email: <strong>orin2k26@gmail.com</strong></p>
+      <p>Account deletion page: <a href="/delete-account">/delete-account</a></p>
     </main>
   </body>
 </html>
